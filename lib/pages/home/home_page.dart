@@ -1,5 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:myapp/pages/account/account_page.dart';
+import 'package:myapp/pages/auth/sign_in_page.dart';
+import 'package:myapp/pages/auth/sign_up_page.dart';
 import 'package:myapp/pages/cart/cart_history.dart';
 import 'package:myapp/pages/home/main_wine_page.dart';
 import 'package:myapp/utilities/app_constant.dart';
@@ -17,9 +20,11 @@ class _HomePageState extends State<HomePage> {
 
   List pages = [
     MainWinePage(),
-    Container(child: Center(child: Text("Next page"))),
+    Container(
+      child: Text("History page"),
+    ),
     CartHistory(),
-    Container(child: Center(child: Text("Next next next page")))
+    AccountPage()
   ];
 
   void onTapNav(int index) {

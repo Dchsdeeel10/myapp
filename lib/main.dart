@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:myapp/controllers/cart_controller.dart';
 import 'package:myapp/controllers/popular_product_controller.dart';
 import 'package:myapp/controllers/recommended_product_controller.dart';
+import 'package:myapp/pages/auth/sign_in_page.dart';
 import 'package:myapp/routes/route_helper.dart';
 import 'helper/dependencies.dart' as dep;
 
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
           return GetMaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'WineHouse',
+            //home: SignInPage(),
             //home: SplashScreen(),
             initialRoute: RouteHelper.getSpashPage(),
             getPages: RouteHelper.routes,

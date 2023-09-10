@@ -8,6 +8,8 @@ class Dimensions {
   static double pagViewContainer = screenHeight / 3.89;
   static double pagViewTextContainer = screenHeight / 7.14;
 
+  static double bg150 = screenHeight / 5.71;
+
   static double splashImg = screenHeight / 3.43;
   //font size
   static double font20 = screenHeight / 42.84;
