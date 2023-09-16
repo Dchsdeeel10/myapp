@@ -7,6 +7,7 @@ class AppConstant {
   //static const String DRINKS_URI = "api/v1/products/drinks";
   static const String REGISTRATION_URI = "api/v1/auth/register";
   static const String LOGIN_URI = "api/v1/auth/login";
+  static const String USER_INFO_URI = "api/v1/customer/info";
 
   static const String UPLOAD_URL = "uploads/";
   static const String TOKEN = "";

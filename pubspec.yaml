@@ -39,6 +39,9 @@ dependencies:
   dio: ^5.3.2
   shared_preferences: ^2.2.1
   intl: ^0.18.0
+  google_maps_flutter: ^2.5.0
+  geocoding: ^2.1.0
+  geolocator: ^10.0.1
   
 
 dev_dependencies:
